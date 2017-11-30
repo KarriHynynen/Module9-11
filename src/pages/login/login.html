@@ -1,0 +1,47 @@
+<!-- login page of FindNearMe -->
+<ion-content class="bg-image no-scroll" padding>
+  <!-- logo of the App -->
+  <img src="" class="logo">
+
+  <!-- username and password field with proper label -->
+  <div>
+    <ion-list class="list" inset>
+      <ion-item class="label">
+        <ion-label  color="myWhite" style="font-size:12px"  stacked>Username or Email</ion-label>
+        <ion-input type="text" #username></ion-input>
+      </ion-item>
+
+      <ion-item class="label">
+        <ion-label floating color="myWhite"  style="font-size:12px" stacked>Password</ion-label>
+        <ion-input color="myWhite"  type="password" #password></ion-input>
+      </ion-item>
+    
+    <ion-item class="nappula" text-center>
+      <button ion-button color="dark" (click)="signInUser()" item-left>LOGIN</button>
+    </ion-item>
+    <ion-item class="nappula" text-center>
+      <button ion-button color="dark" (click)="createAccount()" item-left>Register</button>
+    </ion-item>
+
+    <ion-item text-center>
+      <p>OR</p>
+      </ion-item>
+      
+      <ion-item class="nappula" text-center>
+        <button ion-button color="dark"  item-left>Login with Facebook</button>
+      </ion-item>
+      <ion-item class="nappula" text-center>
+        <button ion-button color="dark"  item-left>Login with Twitter</button>
+      </ion-item>
+      <ion-item class="nappula" text-center>
+        <button ion-button color="dark"  item-left>Login with Google</button>
+      </ion-item>
+
+    </ion-list>
+  </div>
+  
+  <!-- buttons -->
+
+
+  <!-- Make sure to remember that eventually actions will be added, click events etc.. -->
+</ion-content>

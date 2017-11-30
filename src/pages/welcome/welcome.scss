@@ -1,0 +1,37 @@
+page-welcome {
+
+    .swiper-pagination-bullet-active {
+        background: white;
+    }
+
+    .bg-image{
+        background-image: url('../assets/imgs/squirrel.jpg');
+        background-image:  no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-slide1{
+        background-image: url('../assets/imgs/CoolCat1.jpg');
+        background-image:  no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-slide2{
+        background-image: url('../assets/imgs/KattenSnow.jpg');
+        background-image:  no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .bg-slide3{
+        background-image: url('../assets/imgs/KATTEN.png');
+        background-image:  no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+    
+    .padding {
+        padding-bottom: 100px;
+    }
+}
